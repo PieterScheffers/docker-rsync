@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 # create ssh dir
 mkdir -p ~/.ssh
 chmod 700 ~/.ssh
