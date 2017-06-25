@@ -6,7 +6,7 @@ set -e
 mkdir -p ~/.ssh
 chmod 700 ~/.ssh
 
-# don't check host with all hosts
+# add host ssh config
 echo "" | tee -a ~/.ssh/config > /dev/null
 echo "Host $PLUGIN_CONFIG_NAME" | tee -a ~/.ssh/config > /dev/null
 IFS=","
